@@ -14,12 +14,19 @@ public class Main {
         double movieNote = 8.1;
         System.out.println("A nota do filme é: " + movieNote);
 
-        double media = (9.8 + 6.3 + 8.0)/3;
+        double media = (9.8 + 6.3 + 8.0) ;
         System.out.println(media);
 
         String sinopse;
             sinopse = "Filme de aventura com galã dos anos 80";
         System.out.println(sinopse);
+
+
+            //Casting (conversões de tipos) Explicito
+
+        int classificacao = (int) (media /2);
+        System.out.println(classificacao);
+
 
 
         }
